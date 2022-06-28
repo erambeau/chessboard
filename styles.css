@@ -1,0 +1,16 @@
+
+
+
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+
+.chessboard > .pale {
+    background-color: rgb(235, 235, 210);
+}
+
+.chessboard > .dark {
+    background-color: rgb(120, 150, 85);
+}
