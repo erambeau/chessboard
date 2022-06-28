@@ -3,8 +3,16 @@
 
 .chessboard {
     display: grid;
-    grid-template-columns: repeat(8, 100px);
-    grid-template-rows: repeat(8, 100px);
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+}
+
+.chessboard > .case {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .chessboard > .pale {
@@ -14,3 +22,4 @@
 .chessboard > .dark {
     background-color: rgb(120, 150, 85);
 }
+
